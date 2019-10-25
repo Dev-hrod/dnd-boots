@@ -15,13 +15,28 @@
 
 html:root{
     --secondary:#c7c7c7;
+    --teal: #20c997;
+
 }
 
-h1{
+h2{
    font-family: Montserrat;
 }
 p{
     font-family: nunito sans regular;
+}
+
+/*Fin partie about us*/
+
+/*partie professional skills*/
+
+/*.col-pro{
+    background-color: #f8f9f9;
+} */
+
+p-pro{
+    font-family: Montserrat;
+    
 }
 
 
