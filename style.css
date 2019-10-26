@@ -1,7 +1,12 @@
-<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 
+html:root{
+    --secondary:#c7c7c7;
+    --teal: #20c997;
+
+}
 
 /* body{
     font-weight: bold;
@@ -17,37 +22,26 @@ h1{
     font-family: Montserrat:700;
     font-size: 27px;
 }
+h2{
+    font-family: Montserrat;
+ }
+ 
 p{
     font-size: 14px;
-}
-=======
-
-
-
-
-
-
-
-
-
-
-
-/*partie about us aurelie*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
-
-html:root{
-    --secondary:#c7c7c7;
-    --teal: #20c997;
-
-}
-
-h2{
-   font-family: Montserrat;
-}
-p{
     font-family: nunito sans regular;
 }
+p-pro{
+    font-family: Montserrat;
+    
+}
+
+
+
+
+
+
+
+
 
 /*Fin partie about us*/
 
@@ -57,11 +51,6 @@ p{
     background-color: #f8f9f9;
 } */
 
-p-pro{
-    font-family: Montserrat;
-    
-}
 
 
 
->>>>>>> c35dafdb7ac6c2dace0e482112e30a39135daf4f
