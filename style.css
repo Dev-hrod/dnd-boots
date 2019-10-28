@@ -52,11 +52,23 @@ p-pro{
 
 /*Fin partie about us*/
 
-/*partie professional skills*/
+/*Partie professional skills*/
 
-/*.col-pro{
-    background-color: #f8f9f9;
-} */
+
+
+
+/*Fin partie Skills*/
+
+/*Partie Contact*/
+
+.button{
+    background-color: #76c38f;
+    border: 2px;
+    padding: 10px 20px;
+    font-weight: bold;
+    outline: none;
+}
+/*Fin partie Contact*/
 
 
 

@@ -45,7 +45,6 @@
             </div>
         </div>
     </header>
-
     <main>
         <!-- PARTIE ABOUT US -->
         <div class="container-fluid">
@@ -70,37 +69,43 @@
             </div>
         </div>
         <!-- FIN PARTIE ABOUT US -->
-        <div class="container-fluid m-none p-none">
-           
-                <div class="row">
-                    <div class="col-pro-24 col-sm-12 col-md-5 col-lg-5 bg-grey text-dark ml-5 W-50 ">
-                        <h2 class="h3 font-weight-bold_lighter">Professional Skills</h2>
-                        <div>
-                            <p-pro class="tex mt-5 "><small>UI/UX DESIGN &emsp;75</small>%</p>
-                            <div class="progress" style="height: 3px; width: 500px;">
-                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div> 
-                        </div>
-                        <div>
-                            <p-pro class="text mt-5"><small>WEB DEVELOPMENT &emsp; 90%</small></p>
-                                <div class="progress" style="height: 3px; width: 500px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                        </div>
-                        <div>
-                            <p-pro class="text mT-5"><small>MARKETING &emsp; 65%</small></p>
-                                <div class="progress" style="height: 3px; width: 500px;">
-                                    <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65"
-                                        aria-valuemin="0" aria-valuemax="100"></div>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-24 col-sm-12 col-md-5 col-lg-5 bg-secondary">
 
+        <!-- Partie Skills -->
+        <div class="container-fluid m-none p-none" style="background-color: #f8f9f9">
+
+            <div class="row">
+
+                <th class="w-50"></th>
+                <div class=" col-6 ml-5 pl-5 .text-dark align-self-center">
+                    <h2 class="h3 font-weight-bold_lighter">Professional Skills</h2>
+                    <div>
+                        <p-pro class="tex mt-5 mx-auto"><small>UI/UX DESIGN &emsp;75%</small></p>
+                            <div class="progress" style="height: 3px; width: 500px;">
+                                <div class="progress-bar"  role="progressbar" style="width: 75%; background-color: #20c997;" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                    </div>
+                    <div>
+                        <p-pro class="text mt-5"><small>WEB DEVELOPMENT &emsp; 90%</small></p>
+                            <div class="progress" style="height: 3px; width: 500px;">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;  background-color: #20c997;" aria-valuenow="90"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                    </div>
+                    <div>
+                        <p-pro class="text mT-5"><small>MARKETING &emsp; 65%</small></p>
+                            <div class="progress" style="height: 3px; width: 500px;">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;  background-color: #20c997;" aria-valuenow="65"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                     </div>
                 </div>
-            
+                <th class="w-50"></th>
+                <div class=" col p-0" style="background-color: #c7c7c7;">
+                    <img src="image/interior_design.jpg" class="w-100" alt=" Responsive image">
+                </div>
+            </div>
+            <!-- Fin partie skills -->
         </div>
         <!-- ----------------------------------------------NUMBERS----------------------------- -->
         <div class="container-fluid bg-info text-white pt-5 pb-5">
@@ -302,11 +307,49 @@
                 </div>
             </div>
         </div>
-                <!-- ----------------------------------------------::----------------------------- -->
+        <!-- Partie contact -->
+        <div class="container-fluid" style="background-color: #f8f9f9"></div>
+        <div class=" container" >
+            <div class="row">
+                <div class="col  pl-5">
+                    <h2 class="h3 font-weight-bold_lighter  text-center mt-5 mb-4">Need a project?</h2>
 
-        <div class="container-fluid">
-            <div class="container"></div>
+                    <p class="w-50 mx-auto my-5 my-sm-4 my-md-3 my-lg-2 text-center text-secondary mt-0 mb-0"> Let us
+                        know what you're looking for in an
+                        agency. We'll take a look and see
+                        if this could be the start of something beautifull.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8 offset-lg-2 offset-md-2">
+                    <form>
+                        <div class="form-row">
+
+                            <div class="form-group col-sm-12 col-md-6 pt-4">
+                                <input type="text" class="form-control" id='in-name' placeholder="Your Name">
+                            </div>
+                            <div class="form-group col-sm-12 col-md-6 pt-4">
+                                <input type="email" class="form-control" id="in-email" placeholder="Your Email">
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="in-tittle" placeholder="Your Tittle">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="in-comment" rows="3"
+                                placeholder="Your Comment"></textarea>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-2 col-lg-2 offset-md-4 offset-lg-4">
+                            <input class="button text-center" type="SEND MESSAGE" value="SEND MESSAGE">
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+
+<!-- Fin Partie contact -->
+
     </main>
     <!-- ------------------------------------------------------------:FOOTER:-------------------------------- -->
     <footer class="container-fluid bg-dark text-white pt-5 pb-5">
