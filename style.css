@@ -30,13 +30,17 @@ p{
 
 /*partie professional skills*/
 
-/*.col-pro{
+.col-pro{
     background-color: #f8f9f9;
-} */
+} 
 
 p-pro{
     font-family: Montserrat;
     
+}
+
+p .progress .progress-ba{
+    m
 }
 
 
