@@ -14,6 +14,14 @@ html:root{
     font-weight: bold;
     font-family: Montserrat:700;
 } */
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    .f-nunito{
+    font-family: 'Nunito Sans', sans-serif;
+    }
+
+
 header{
     background: url(image/bg-header.jpg);
     background-repeat: no-repeat;
@@ -22,26 +30,18 @@ header{
 }
 
 h1{
-    font-family: Montserrat 700;
     font-size: 27px;
 }
 
-h2{
-    font-family: Montserrat 700;
- }
  h3{
      font-size: 16px;
  }
-.text-center{
-    font-size: 14px;
-    font-family: Nunito sans-serif;
-}
+
 
 /*Fin partie about us*/
 
 /*Partie Professional Skills*/
 p{
-    font-family: Montserrat 900;
     font-size: 18px;
 }
 /*Fin Partie Professional Skills
