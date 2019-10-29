@@ -41,30 +41,19 @@ p-pro{
     font-family: Montserrat;
     
 }
-.bg-light{
-    background-color: rgb(216, 214, 214);
-}
-
-
-
-
-
-
-
 
 /*Fin partie about us*/
 
-/*Partie professional skills*/
 
-
-
-
-/*Fin partie Skills*/
+/*numbers*/
+.bg{
+    background-color: #10c9c3;
+}
+/*fin numbers*/
 
 /*Partie Contact*/
 
 .button{
-    background-color: #76c38f;
     border: 2px;
     padding: 10px 20px;
     font-weight: bold;
