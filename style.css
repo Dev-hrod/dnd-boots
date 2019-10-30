@@ -61,3 +61,12 @@ p{
 }
 /*Fin partie Contact*/
 
+.row-image{
+    width: 100%;
+    height: auto;
+}
+.color-text{
+    color: grey;
+}
+
+
