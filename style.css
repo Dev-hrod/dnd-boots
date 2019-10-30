@@ -16,10 +16,12 @@ html:root{
 } */
 body{
     font-family: 'Montserrat', sans-serif;
+        overflow-x: hidden;
     }
     .f-nunito{
     font-family: 'Nunito Sans', sans-serif;
     }
+    
 
 
 header{
@@ -67,6 +69,18 @@ p{
 }
 .color-text{
     color: grey;
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    header{
+        height: 410px;
+    }
+.container-fluid{
+    max-width: 991px;
+}
+
+    /* .container-fluid{
+        display: none;
+    } */
 }
 
 
