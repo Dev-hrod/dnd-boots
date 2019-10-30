@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900&display=swap');
 
 
 html:root{
@@ -14,6 +14,14 @@ html:root{
     font-weight: bold;
     font-family: Montserrat:700;
 } */
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+    .f-nunito{
+    font-family: 'Nunito Sans', sans-serif;
+    }
+
+
 header{
     background: url(image/bg-header.jpg);
     background-repeat: no-repeat;
@@ -22,29 +30,21 @@ header{
 }
 
 h1{
-    font-family: Montserrat:700;
     font-size: 27px;
 }
 
-h2{
-    font-family: Montserrat;
- }
  h3{
      font-size: 16px;
  }
- 
-p{
-    font-size: 14px;
-    font-family: Nunito Sans;
-}
-p-pro{
-    font-family: Montserrat;
-    
-}
+
 
 /*Fin partie about us*/
 
-
+/*Partie Professional Skills*/
+p{
+    font-size: 18px;
+}
+/*Fin Partie Professional Skills
 /*numbers*/
 .bg{
     background-color: #10c9c3;
